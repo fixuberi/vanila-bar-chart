@@ -1,0 +1,29 @@
+#bar-chart {
+    display: flex;
+    border: 1px dotted #666666;
+}
+
+#bars-container {
+    display: flex;
+    align-items: flex-end;
+    height: 500px;
+}
+
+#bars-container .bar {
+    min-width: 50px;
+    margin-right: 5px;
+}
+#bars-container .bar:last-child {
+    margin-right: 0;
+}
+
+.red { 
+    background: red;
+}
+.yellow {
+    background: yellow;
+}
+.green  {
+    background: green;
+}
+
